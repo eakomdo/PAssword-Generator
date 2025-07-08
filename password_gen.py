@@ -22,5 +22,3 @@ def main():
     print(f"Generated password: {password}")
 
 
-if __name__ == "__main__":
-    main()
