@@ -4,7 +4,7 @@ import random
 import string
 print("Hello! You are welcome to the password generator. Password length should be at least 8 charact.")
 
-def generate_password(length=12):
+def generate_password(length= 15):
     characters = string.ascii_letters + string.digits + string.punctuation
     return''.join(random.choice(characters) for _ in range(length))
   
