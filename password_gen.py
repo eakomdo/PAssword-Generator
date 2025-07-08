@@ -20,4 +20,7 @@ def main():
 
     password = generate_password(length)
     print(f"Generated password: {password}")
-    
+
+
+if __name__ == "__main__":
+    main()
