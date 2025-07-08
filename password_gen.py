@@ -18,6 +18,8 @@ def main():
             length = int(input("Enter the desired password length (minimum 8 characters): "))
             if length < 8:
                 print("Password length should be at least 8 characters. Please try again.")
+            elif length > 15:
+                print("Password length should not exceed 15 characters. Please try again.")
             else:
                 break
         except ValueError:
