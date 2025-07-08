@@ -12,12 +12,13 @@ def generate_password(length=12):
 def main():
     length = int(input("Enter the desired password length: "))
     include_special_characters = input("Include special characters? (yes/no): ").strip().lower() == 'yes'
+
     while True:
         if length < 8:
-            print("Password length should be at least 8 characters. Please try again.")
-            length = int(input("Enter the desired password length: "))
+            length = int(input("Password length should be at least 8 characters. Please try again."))
         else:
             break
+    
     if include_special_characters:
         characters = string.ascii_letters + string.digits + string.punctuation
     else:
