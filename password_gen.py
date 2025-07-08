@@ -6,7 +6,8 @@ print("Hello! You are welcome to the password generator. Password length should 
 
 def generate_password(length= 15):
     characters = string.ascii_letters + string.digits + string.punctuation
-    return''.join(random.choice(characters) for _ in range(length))
+    return''.join(random.choice(characters) 
+                  for _ in range(length))
   
 
 def main():
