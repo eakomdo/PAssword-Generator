@@ -6,9 +6,10 @@ print("Hello! You are welcome to the password generator. Password length should 
 
 def generate_password(length= 15):
     characters = string.ascii_letters + string.digits + string.punctuation
-    return''.join(random.choice(characters) 
-                  for _ in range(length))
-  
+    return ''.join(random.choice(characters) 
+                   for i in range(length))
+
+
 
 def main():
    
@@ -26,6 +27,8 @@ def main():
         except ValueError:
             print("Invalid input. Please enter a number.")
 
+
+
     include_special_characters = input("Include special characters? (yes/no): ").strip().lower() == 'yes'
     if include_special_characters:
         characters = string.ascii_letters + string.digits + string.punctuation
@@ -34,6 +37,8 @@ def main():
 
     password = generate_password(length)
     print(f"Generated password: {password}")
+    
+    
 
 if __name__ == "__main__":
     main()
