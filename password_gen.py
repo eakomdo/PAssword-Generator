@@ -10,4 +10,4 @@ def generate_password(length=12):
    return password
 
   if include_special_characters == True:
-       
+    characters += string.punctuation
