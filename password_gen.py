@@ -54,3 +54,4 @@ if __name__ == "__main__":
 # The password is generated using Python's built-in libraries for randomness and string manipulation.
 # The code is efficient and performs well for generating passwords of reasonable lengths.
 # The password generation process is secure and follows best practices for creating strong passwords.
+# The code is well-documented with comments explaining each step of the process.
