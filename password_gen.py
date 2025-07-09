@@ -68,3 +68,4 @@ if __name__ == "__main__":
 # The password generator can be used in various scenarios, such as creating passwords for online accounts,
 # securing sensitive information, or generating random keys for encryption.
 # The code is designed to be user-friendly and provides clear instructions for input.
+# The password generator can be easily integrated into larger applications or used as a standalone script.
