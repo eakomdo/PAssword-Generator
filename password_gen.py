@@ -48,3 +48,4 @@ if __name__ == "__main__":
 # The code also includes error handling for invalid inputs and provides feedback to the user on the password
 ## generation process.
 # The password is printed to the console after generation.
+# The code is designed to be user-friendly and provides clear instructions for input.
