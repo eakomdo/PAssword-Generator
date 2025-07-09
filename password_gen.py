@@ -43,3 +43,4 @@ def main():
 if __name__ == "__main__":
     main()
 # This code generates a random password based on user input for length and character types.
+# It ensures the password meets minimum length requirements and allows the user to choose whether to include special
