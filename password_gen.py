@@ -51,3 +51,4 @@ if __name__ == "__main__":
 # The code is designed to be user-friendly and provides clear instructions for input.
 # The password generation process is randomized to ensure unique passwords each time.
 # The code is structured to be easily maintainable and extensible for future enhancements.
+# The password is generated using Python's built-in libraries for randomness and string manipulation.
