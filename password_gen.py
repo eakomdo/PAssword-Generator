@@ -47,3 +47,4 @@ if __name__ == "__main__":
 # characters. The password is generated using a combination of letters, digits, and punctuation based on the user's preferences.
 # The code also includes error handling for invalid inputs and provides feedback to the user on the password
 ## generation process.
+# The password is printed to the console after generation.
