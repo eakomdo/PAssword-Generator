@@ -50,3 +50,4 @@ if __name__ == "__main__":
 # The password is printed to the console after generation.
 # The code is designed to be user-friendly and provides clear instructions for input.
 # The password generation process is randomized to ensure unique passwords each time.
+# The code is structured to be easily maintainable and extensible for future enhancements.
