@@ -61,3 +61,4 @@ if __name__ == "__main__":
 # The code is designed to be robust and handle edge cases gracefully.
 # The password generator can be used for various applications, including account creation, security testing, and
 # password management.
+# The code is open-source and can be freely modified and distributed under the terms of the MIT
