@@ -77,3 +77,4 @@ if __name__ == "__main__":
 # The code is open-source and can be freely modified and distributed under the terms of the MIT
 # license.
 # The password generator is a useful tool for anyone looking to create strong and secure passwords quickly and
+# easily.
