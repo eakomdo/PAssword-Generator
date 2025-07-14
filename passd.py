@@ -1,3 +1,4 @@
+# passd.py
 from getpass import getpass
 
 def main():
