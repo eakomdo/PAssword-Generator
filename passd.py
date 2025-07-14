@@ -3,6 +3,7 @@
 # It uses the getpass module to securely handle password input.
 # It is useful for scenarios where sensitive information needs to be entered without being visible on the screen.
 # The code is designed to be user-friendly and provides clear instructions for input.
+# The password is stored securely in memory and not displayed on the console.
 from getpass import getpass
 
 def main():
