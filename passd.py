@@ -2,6 +2,7 @@
 # This script prompts the user to enter a password without echoing it to the console.
 # It uses the getpass module to securely handle password input.
 # It is useful for scenarios where sensitive information needs to be entered without being visible on the screen.
+# The code is designed to be user-friendly and provides clear instructions for input.
 from getpass import getpass
 
 def main():
