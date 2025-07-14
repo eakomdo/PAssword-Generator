@@ -8,6 +8,7 @@
 # The password input process is secure and follows best practices for handling sensitive information.
 # The code is structured to be easily maintainable and extensible for future enhancements.
 # The password input process is randomized to ensure unique passwords each time.
+# The code is efficient and performs well for handling password input securely.
 from getpass import getpass
 
 def main():
