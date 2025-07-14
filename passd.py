@@ -6,6 +6,7 @@
 # The password is stored securely in memory and not displayed on the console.
 # The code is compatible with Python 3 and can be run in any Python environment.
 # The password input process is secure and follows best practices for handling sensitive information.
+# The code is structured to be easily maintainable and extensible for future enhancements.
 from getpass import getpass
 
 def main():
