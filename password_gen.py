@@ -80,3 +80,4 @@ if __name__ == "__main__":
 # easily.
 # The code is tested and verified to work correctly for generating passwords as per user specifications.
 # The password generator can be used in various scenarios, such as creating passwords for online accounts,
+# securing sensitive information, or generating random keys for encryption.
