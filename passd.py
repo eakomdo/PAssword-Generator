@@ -1,5 +1,22 @@
 from getpass import getpass
 
+def welcome_message():
+    print("Welcome to the login system.")
+    print("You can log in as either an admin or a user.")
+    print (f"Please create your account with a username and password.")
+    print("Make sure to remember your credentials for future logins.")
+    print("Let's get started!\n")
+    print("You can also create a to-do list after logging in.")
+    print("Signing up as admin or user?")
+    choice = input("Enter your choice (admin/user): ").strip().lower()
+    if choice == "admin":
+        admin_login()
+    elif choice == "user":
+        user_login()
+    else:
+        print("Invalid choice. Please enter 'admin' or 'user'.")
+        main()
+
 def admin_login():
     print("Welcome to the admin login system.")
     username = input("Enter your username: ")
@@ -44,7 +61,9 @@ def main():
     print("Your to-do list:")
     for item in todo_list:
         print(f"- {item}")
-
+        
+        
+welcome_message()
 main()
 admin_login()
 user_login()
