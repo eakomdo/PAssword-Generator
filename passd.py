@@ -1,20 +1,50 @@
-# passd.py
-# This script prompts the user to enter a password without echoing it to the console.
-# It uses the getpass module to securely handle password input.
-# It is useful for scenarios where sensitive information needs to be entered without being visible on the screen.
-# The code is designed to be user-friendly and provides clear instructions for input.
-# The password is stored securely in memory and not displayed on the console.
-# The code is compatible with Python 3 and can be run in any Python environment.
-# The password input process is secure and follows best practices for handling sensitive information.
-# The code is structured to be easily maintainable and extensible for future enhancements.
-# The password input process is randomized to ensure unique passwords each time.
-# The code is efficient and performs well for handling password input securely.
-# The password input process is secure and follows best practices for creating strong passwords.
 from getpass import getpass
 
-def main():
+def admin_login():
+    print("Welcome to the admin login system.")
+    username = input("Enter your username: ")
     password = getpass("Enter your password: ")
-    print("Password entered successfully.")
 
-if __name__ == "__main__":
-    main()
+    if username == "admin" and password == "secret":
+        print(f"Login successful! Welcome, {username}.")
+    else:
+        print("Login failed. Please check your username and password.")
+        admin_login()
+
+
+def user_login():
+    print("Welcome to the user login system.")
+    username = input("Enter your username: ")
+    password = getpass("Enter your password: ")
+
+    if username == "user" and password == "password":
+        print(f"Login successful! Welcome, {username}.")
+    else:
+        print("Login failed. Please check your username and password.")
+        
+        
+def main():
+    print ("Welcome to the login system.")
+    choice = input("Are you an admin or a user? (admin/user): ").strip().lower()
+    if choice == "admin":
+        admin_login()
+    elif choice == "user":
+        user_login()  # Call the user_login function for the "user" choice
+    else:
+        print("Invalid choice. Please enter 'admin' or 'user'.")
+        main()
+    
+    #create a to do list for the user
+    todo_list = []
+    while True:
+        task = input("Enter a task to add to your to-do list (or type 'done' to finish): ")
+        if task.lower() == 'done':
+            break
+        todo_list.append(task)
+    print("Your to-do list:")
+    for item in todo_list:
+        print(f"- {item}")
+
+main()
+admin_login()
+user_login()
